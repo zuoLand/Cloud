@@ -61,6 +61,13 @@
 #https://help.github.com/articles/cloning-a-repository-from-github/
 #git clone https://github.com/zuoLand/Cloud.git
 
+#添加文件
+#git add filename
+#git git config --global user.email "chunyuan2008@163.com"
+#git config --global user.name "zuoLand"
+
+#git commit -m "Description:"
+#git push
 
 
 #阿里云安装tomcat/jdk1.8
