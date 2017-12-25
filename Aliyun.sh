@@ -181,3 +181,43 @@
 #验证版本
 #mvn -v
 
+
+#安装Mysql 
+
+#卸载原始信息
+#rpm -qa | grep mariadb
+#rpm -e mariadb-libs-5.5.37-1.el7_0.x86_64
+#rpm -e --nodeps mariadb-libs-5.5.37-1.el7_0.x86_64
+
+#安装Mysql
+#yum install vim libaio net-tools
+# wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+# sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+# sudo yum install mysql-server
+
+
+# mysql -u root
+# sudo chown -R openscanner:openscanner /var/lib/mysql
+#service mysqld restart
+
+#mysql -u root
+#mysql > use mysql;
+#mysql > update user set password=password(‘123456‘) where user=‘root‘;
+#mysql > exit;
+
+
+
+
+
+
+
+#安装Django
+#tar -zxvf Django-1.11.8.tar.gz
+#chown -R Django-1.11.8
+#python setup.py install
+
+
+
+
+
+
