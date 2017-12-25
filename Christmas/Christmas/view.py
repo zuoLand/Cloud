@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 from ChristmasModel.models import RefModel
+from ChristmasModel.models import WorkModel
  
 #import Global Personal Setting Variable Parameters
 from django.conf import settings
@@ -37,6 +38,10 @@ def toWork(request):
 
     global_setting(context)
 
+    list=WorkModel.objects.all()
+    WorkModel.objects.order_by("id")
+    context['WorkModelList']=list
+    
     return render(request, 'work.html', context)
 
 def toRef(request):

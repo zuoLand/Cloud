@@ -71,21 +71,30 @@
 
          <!-- -->
          <div class="row">
-         
+           {% for workModel in WorkModelList %} 
             <div class="card">
-              <a href="javascript:;" onclick="showMask()" >
-                <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap" src="{% static '/work/youlun/youlun_0.png' %}" height="200" class="rounded mx-auto d-block" >
+              <a href="javascript:;" >
+                <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap" src="{{workModel.href}}" height="200" class="rounded mx-auto d-block" >
               </a>
               <p class="card-text">
-              模型 ：<br/>
-              动画 : <br/>
-              特效 : <br/>
-              贴图 : <br/>
-              贴图精度 ：<br/>
-              LOD ：<br/>
-              PBR : <br/>
+              名称 ：{{ workModel.name }}<br/>
+              FPS ：{{ workModel.fps }}<br/>
+              引擎 : {{ workModel.engine}} <br/>
+              平台 : {{ workModel.platform }}<br/>
+              文档 : {{ workModel.isdoc}}<br/>
+              LOD ：{{ workModel.islod}}<br/>
+              PBR : {{ workModel.ispbr}} <br/>
+              碰撞 : {{ workModel.iscollision}} <br/>
+              顶点数量 : {{ workModel.vertexcount }}<br/>
+              模型数量 : {{ workModel.meshcount}}<br/>
+              贴图数量 ：{{ workModel.texturecount}}<br/>
+              贴图精度 ：{{ workModel.texturesize }}<br/>
+              材质数量 : {{ workModel.materialscount }}<br/>
+              动画数量 ：{{ workModel.animcount }}<br/>
+              特效数量 : {{ workModel.effectcount }}<br/>
               </p>
             </div>  
+            {% endfor %}
 
         </div>
         </div>

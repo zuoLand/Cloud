@@ -236,3 +236,13 @@ Not Found: /favicon.ico
 [25/Dec/2017 12:04:10] "GET /work HTTP/1.0" 200 3728
 [25/Dec/2017 12:04:10] "GET /static/work/youlun/youlun_0.png HTTP/1.0" 200 6847049
 [25/Dec/2017 12:04:11] "GET /ref HTTP/1.0" 200 5736
+[25/Dec/2017 12:11:00] "GET / HTTP/1.0" 200 4191
+Not Found: /favicon.ico
+[25/Dec/2017 12:11:00] "GET /favicon.ico HTTP/1.0" 404 2392
+[25/Dec/2017 12:11:03] "GET /work HTTP/1.0" 200 3728
+[25/Dec/2017 12:11:03] "GET /static/work/youlun/youlun_0.png HTTP/1.0" 200 6847049
+[25/Dec/2017 12:11:04] "GET /ref HTTP/1.0" 200 5736
+[25/Dec/2017 12:11:04] "GET /static/res/bootstrap-4.0.0/css/grid.css HTTP/1.0" 304 0
+[25/Dec/2017 12:11:06] "GET /work HTTP/1.0" 200 3728
+[25/Dec/2017 12:11:06] "GET /static/work/youlun/youlun_0.png HTTP/1.0" 200 6847049
+[25/Dec/2017 12:11:06] "GET / HTTP/1.0" 200 4191
