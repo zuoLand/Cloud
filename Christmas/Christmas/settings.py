@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ChristmasModel',
 ]
 
 MIDDLEWARE = [
@@ -73,10 +74,20 @@ WSGI_APPLICATION = 'Christmas.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#    }
+#}
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'christmas',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST':'localhost',
+        'PORT':'3306',
     }
 }
 
@@ -123,7 +134,7 @@ STATIC_URL = '/static/'
 
 # WebSite Infomation
 SITE_ADDRESS_PRE='http'
-SITE_ADDRESS='127.0.0.1:8000'
+SITE_ADDRESS='47.94.228.162:88'
 SITE_NAME='Christmas'
 
 SITE_FOOTER_EMAIL='chunyuan2008@163.com'

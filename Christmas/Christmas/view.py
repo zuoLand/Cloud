@@ -2,6 +2,8 @@
  
 from django.http import HttpResponse
 from django.shortcuts import render
+
+from ChristmasModel.models import RefModel
  
 #import Global Personal Setting Variable Parameters
 from django.conf import settings
@@ -41,5 +43,10 @@ def toRef(request):
     context          = {}
 
     global_setting(context)
+
+    list=RefModel.objects.all()
+    RefModel.objects.order_by("id")
+    context['RefModelList']=list
+
 
     return render(request, 'ref.html', context)

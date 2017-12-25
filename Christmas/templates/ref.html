@@ -53,93 +53,14 @@
            <h1>&nbsp;</h1>
            <p class="lead"></p>
 
-           <h3>原理知识</h3>
-           <div class="row">
-             <div class="col-md-8"><a href="http://www.xuetangx.com/courses/course-v1:UC_BerkeleyX+CS_184_1x+sp/about">计算机图形学导论</a></div>
-             <div class="col-md-4">慕课</div>
-           </div>
+          {% for refmodel in RefModelList %}
             <div class="row">
-             <div class="col-md-8"><a href="http://www.xuetangx.com/courses/DavidsonX/D003x.1/_/about">线性代数应用</a></div>
-             <div class="col-md-4">慕课</div>
-           </div>
-            <div class="row">
-             <div class="col-md-8"><a href="http://www.xuetangx.com/courses/course-v1:TsinghuaX+80512073X+2017_T2/about">财务分析与决策</a></div>
-             <div class="col-md-4">慕课</div>
-           </div>
+             <div class="col-md-8"><a href="{{ refmodel.href }} ">{{ refmodel.name }}</a></div>
+             <div class="col-md-4">{{ refmodel.class_name }}</div>
+	</div>
+          {% endfor %}
 
 
-
-           <h3>参考网站</h3>
-           
-             <div class="row">
-             <div class="col-md-8"><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap文档</a></div>
-             <div class="col-md-4">Bootstrap文档</div>
-           </div>
-             <div class="row">
-             <div class="col-md-8"><a href="http://www.codingdrama.com/bootstrap-markdown/">bootstrap-markdown</a></div>
-             <div class="col-md-4">bootstrap-markdown</div>
-           </div>
-            
-           <div class="row">
-             <div class="col-md-8"><a href="https://www.marmoset.co/posts/toolbag-baking-tutorial/?page=Map%20Types#maptypes">marmoset</a></div>
-             <div class="col-md-4">marmoset</div>
-           </div>
-            <div class="row">
-             <div class="col-md-8"><a href="http://wiki.polycount.com/wiki/Polycount">Polycount</a></div>
-             <div class="col-md-4">Polycount</div>
-           </div>
-            <div class="row">
-             <div class="col-md-8"><a href="http://terrain.party/">terrain</a></div>
-             <div class="col-md-4">世界高度图</div>
-           </div>
-            <div class="row">
-             <div class="col-md-8"><a href="http://terrain.party/">terrain</a></div>
-             <div class="col-md-4">世界高度图</div>
-           </div>
-            <div class="row">
-             <div class="col-md-8"><a href="https://www.openstreetmap.org/">openstreetmap</a></div>
-             <div class="col-md-4">世界地图</div>
-           </div>
-
-
-           <h3>阿里云环境配置</h3>
-            <div class="row">
-             <div class="col-md-8"><a href="https://www.aliyun.com">aliyun</a></div>
-             <div class="col-md-4">阿里云</div>
-           </div>
-
-
-
-          <h3>Django</h3>
-          <div class="row">
-             <div class="col-md-8"><a href="http://www.runoob.com/django/django-first-app.html">Django 教程</a></div>
-             <div class="col-md-4">Django 教程</div>
-           </div>
-            <div class="row">
-             <div class="col-md-8"><a href="https://docs.djangoproject.com/en/1.11/">Django</a></div>
-             <div class="col-md-4">Django</div>
-           </div>
-           <div class="row">
-             <div class="col-md-8"><a href="https://mobirise.com/bootstrap-carousel/">Bootstrap Carousel</a></div>
-             <div class="col-md-4">Bootstrap Carousel</div>
-           </div>
-
-
-           <h3>Python</h3>
-           <div class="row">
-             <div class="col-md-8"></div>
-             <div class="col-md-4"></div>
-           </div>
-
-            <h3>UE4</h3>
-          <div class="row">
-             <div class="col-md-8"><a href="https://docs.unrealengine.com/latest/INT/">虚幻引擎4文档</a></div>
-             <div class="col-md-4">UE4</div>
-           </div>
-              <div class="row">
-             <div class="col-md-8"><a href="https://udk-legacy.unrealengine.com/udk/Three/DesignWorkflowCH.html">虚幻引擎3文档</a></div>
-             <div class="col-md-4">UE3</div>
-           </div>
 
        </div>
 
