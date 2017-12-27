@@ -4,10 +4,11 @@ import requests
 import chardet
 import sys
 import argparse
+import codecs
 from bs4 import BeautifulSoup
 
 reload(sys)
-sys.setdefaultencoding('utf-8')
+sys.setdefaultencoding('gb2312')
  
 
 targetUrl=sys.argv[1]
@@ -35,11 +36,14 @@ news_titles = soup.select(targetTitle)
 # 对返回的列表进行遍历
 
 
-
-with open(targetFile,'w') as f:
+with codecs.open(targetFile,'w',encoding="gb2312") as f:
     for n in news_titles:
         title = n.get_text()
-        b=targetName+" "+curTime+" "+title
+        link = n.get("href")
+        b=targetName+" <a href=\""+link+"\">"+title+"</a><br/>"
         b+="\n"
+        #res=b.encode('utf8');
         f.write(b)
+        #print(b,file=f)
+        #print >>file,b
 

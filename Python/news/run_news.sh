@@ -1,29 +1,25 @@
 #!/bin/bash
 
 #curTime=$(date "+%Y%m%d%H%M%S")
+curDate=$(date "+%Y%m%d")
 curTime=$(date "+%Y%m%d%H%M")
 
-
-python news.py 'http://news.qq.com' 'div.text > em.f14 > a.linkto' 'Tencent' $curTime ./data/Tencent.$curTime
-newsSize=$(wc -l ./data/Tencent.$curTime | awk '{print $1}')
-echo "Tencent $curTime  $newsSize Down">>run.log
+baseDir=/opt/logs/python/news/
 
 
 
+if [ ! -f $baseDir/Tencent.$curDate ] ; then
+    touch $baseDir/Tencent.$curDate
+fi
+python news.py 'http://news.qq.com' 'div.text > em.f14 > a.linkto' 'Tencent' $curTime $baseDir/Tencent.$curTime
+
+cat $baseDir/Tencent.$curTime >> $baseDir/Tencent.$curDate
+
+newsSize=$(wc -l $baseDir/Tencent.$curTime | awk '{print $1}')
+
+echo "Tencent $curTime  $newsSize Down">> $baseDir/run.log
+
+rm -rf $baseDir/Tencent.$curTime
 
 
-#while read line 
-#do
-#    
-#    targetName=$(echo $line|awk -F ';' '{print $1}');
-#    targetUrl=$(echo $line|awk -F ';' '{print $2}');
-#    targetTitle=$(echo $line|awk -F ';' '{print ''''$3''''}');
-#    
-#    targetFile=./data/$targetName.$curTime.data
-#    touch $targetFile
-#    python news.py $targetUrl $targetTitle $targetName $curTime $targetFile
-#    
-#    size=$(wc -l $targetFile | awk '{print $1}')
-#    echo  "$curTime $targetName $targetUrl $targetTitle $size Done" >> ./logs/run.log
-#
-#done < target.list
+
