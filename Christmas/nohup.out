@@ -246,3 +246,287 @@ Not Found: /favicon.ico
 [25/Dec/2017 12:11:06] "GET /work HTTP/1.0" 200 3728
 [25/Dec/2017 12:11:06] "GET /static/work/youlun/youlun_0.png HTTP/1.0" 200 6847049
 [25/Dec/2017 12:11:06] "GET / HTTP/1.0" 200 4191
+[25/Dec/2017 13:31:34] "GET / HTTP/1.0" 200 4191
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/css/bootstrap.css HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-markdown/js/bootstrap-markdown.js HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/css/bootstrap-reboot.css HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/css/jumbotron.css HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/css/bootstrap-grid.css HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/js/bootstrap.min.js HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/js/popper.min.js HTTP/1.0" 304 0
+[25/Dec/2017 13:31:34] "GET /static/res/bootstrap-4.0.0/js/holder.min.js HTTP/1.0" 304 0
+[25/Dec/2017 13:31:37] "GET /work HTTP/1.0" 200 4106
+[25/Dec/2017 13:31:37] "GET /static/res/bootstrap-4.0.0/css/album.css HTTP/1.0" 304 0
+[25/Dec/2017 13:31:40] "GET /ref HTTP/1.0" 200 5736
+[25/Dec/2017 13:31:40] "GET /static/res/bootstrap-4.0.0/css/grid.css HTTP/1.0" 304 0
+[25/Dec/2017 13:31:43] "GET /work HTTP/1.0" 200 4106
+[25/Dec/2017 13:31:48] "GET /admin/ HTTP/1.0" 200 7045
+[25/Dec/2017 13:31:48] "GET /admin/ HTTP/1.0" 200 7045
+[25/Dec/2017 13:31:50] "GET /admin/ChristmasModel/workmodel/ HTTP/1.0" 200 4260
+[25/Dec/2017 13:31:50] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[25/Dec/2017 13:31:52] "GET /admin/ChristmasModel/workmodel/add/ HTTP/1.0" 200 11305
+[25/Dec/2017 13:31:52] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[25/Dec/2017 13:32:46] "POST /admin/ChristmasModel/workmodel/add/ HTTP/1.0" 200 11636
+[25/Dec/2017 13:32:46] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[25/Dec/2017 13:33:06] "POST /admin/ChristmasModel/workmodel/add/ HTTP/1.0" 302 0
+[25/Dec/2017 13:33:06] "GET /admin/ChristmasModel/workmodel/ HTTP/1.0" 200 4708
+[25/Dec/2017 13:33:06] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[25/Dec/2017 13:33:09] "GET / HTTP/1.0" 200 4191
+[25/Dec/2017 13:33:11] "GET /work HTTP/1.0" 200 5040
+[25/Dec/2017 13:33:27] "GET / HTTP/1.0" 200 4191
+[25/Dec/2017 13:33:29] "GET /work HTTP/1.0" 200 5040
+[25/Dec/2017 13:33:29] "GET /ref HTTP/1.0" 200 5736
+[25/Dec/2017 13:33:57] "GET / HTTP/1.0" 200 4191
+Not Found: /favicon.ico
+[25/Dec/2017 13:33:58] "GET /favicon.ico HTTP/1.0" 404 2392
+[25/Dec/2017 21:19:58] "GET / HTTP/1.0" 200 4191
+Not Found: /index.action
+[25/Dec/2017 21:19:58] "GET /index.action HTTP/1.0" 404 2395
+[26/Dec/2017 02:08:03] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/css/bootstrap.css HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/css/jumbotron.css HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/js/bootstrap.min.js HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/css/bootstrap-reboot.css HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-markdown/js/bootstrap-markdown.js HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/css/bootstrap-grid.css HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/js/holder.min.js HTTP/1.0" 304 0
+[26/Dec/2017 02:08:04] "GET /static/res/bootstrap-4.0.0/js/popper.min.js HTTP/1.0" 304 0
+Not Found: /favicon.ico
+[26/Dec/2017 02:08:04] "GET /favicon.ico HTTP/1.0" 404 2392
+[26/Dec/2017 02:08:06] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 02:08:06] "GET /static/res/bootstrap-4.0.0/css/album.css HTTP/1.0" 304 0
+[26/Dec/2017 02:18:19] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-4.0.0/css/bootstrap.css HTTP/1.0" 200 159202
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js HTTP/1.0" 200 86659
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-4.0.0/css/bootstrap-reboot.css HTTP/1.0" 200 4964
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-4.0.0/css/bootstrap-grid.css HTTP/1.0" 200 32403
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-4.0.0/js/bootstrap.min.js HTTP/1.0" 200 50564
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-4.0.0/css/jumbotron.css HTTP/1.0" 200 107
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-markdown/js/bootstrap-markdown.js HTTP/1.0" 200 49558
+[26/Dec/2017 02:18:19] "GET /static/res/bootstrap-4.0.0/js/popper.min.js HTTP/1.0" 200 19197
+[26/Dec/2017 02:18:20] "GET /static/res/bootstrap-4.0.0/js/holder.min.js HTTP/1.0" 200 32283
+[26/Dec/2017 02:18:47] "GET /introduction HTTP/1.0" 200 4305
+[26/Dec/2017 02:18:50] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 02:18:51] "GET /introduction HTTP/1.0" 200 4305
+[26/Dec/2017 02:19:42] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 02:19:44] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 02:19:44] "GET /static/res/bootstrap-4.0.0/css/album.css HTTP/1.0" 200 790
+[26/Dec/2017 02:19:59] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 02:20:00] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 02:20:01] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 02:20:01] "GET /static/res/bootstrap-4.0.0/css/grid.css HTTP/1.0" 200 366
+[26/Dec/2017 02:56:38] "GET / HTTP/1.0" 200 4191
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 02:56:56] "GET /AutoScreenshot.png HTTP/1.0" 404 2408
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 02:56:56] "GET /AutoScreenshot.png HTTP/1.0" 404 2408
+[26/Dec/2017 02:58:45] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 02:58:46] "GET / HTTP/1.0" 200 4191
+Not Found: /png
+[26/Dec/2017 02:58:50] "GET /png HTTP/1.0" 404 2368
+Not Found: /png
+[26/Dec/2017 03:05:22] "GET /png HTTP/1.0" 404 2368
+[26/Dec/2017 03:15:18] "GET / HTTP/1.0" 200 4191
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:15] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:17] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:54] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:54] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:55] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:56] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:56] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:56] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:21:56] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:24:11] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:24:43] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:24:44] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:24:44] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:24:44] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:24:44] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+[26/Dec/2017 03:30:00] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:30:30] "GET /introduction HTTP/1.0" 200 4305
+[26/Dec/2017 03:30:31] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:30:32] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:33] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:30:34] "GET /introduction HTTP/1.0" 200 4305
+[26/Dec/2017 03:30:37] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:37] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:30:37] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:38] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:30:38] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:39] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:30:39] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:40] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:30:40] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:41] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:30:41] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:42] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:30:42] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:42] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:30:43] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:43] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:30:44] "GET /work HTTP/1.0" 200 5040
+[26/Dec/2017 03:30:45] "GET / HTTP/1.0" 200 4191
+Not Found: /images/
+[26/Dec/2017 03:35:28] "GET /images/ HTTP/1.0" 404 2380
+Not Found: /AutoScreenshot.png
+[26/Dec/2017 03:38:38] "GET /AutoScreenshot.png HTTP/1.0" 404 2413
+[26/Dec/2017 03:49:13] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:49:29] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:49:32] "GET /admin HTTP/1.0" 301 0
+[26/Dec/2017 03:49:32] "GET /admin/ HTTP/1.0" 302 0
+[26/Dec/2017 03:49:32] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1650
+[26/Dec/2017 03:49:32] "GET /static/admin/css/base.css HTTP/1.0" 200 16066
+[26/Dec/2017 03:49:32] "GET /static/admin/css/login.css HTTP/1.0" 200 1203
+[26/Dec/2017 03:49:32] "GET /static/admin/css/fonts.css HTTP/1.0" 200 423
+[26/Dec/2017 03:49:32] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 200 80304
+[26/Dec/2017 03:49:33] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 200 81348
+[26/Dec/2017 03:49:39] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[26/Dec/2017 03:49:39] "GET /admin/ HTTP/1.0" 200 7048
+[26/Dec/2017 03:49:39] "GET /static/admin/css/dashboard.css HTTP/1.0" 200 412
+[26/Dec/2017 03:49:39] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 200 82564
+[26/Dec/2017 03:49:39] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 200 331
+[26/Dec/2017 03:49:39] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 380
+[26/Dec/2017 03:49:41] "GET /admin/ChristmasModel/workmodel/ HTTP/1.0" 200 4503
+[26/Dec/2017 03:49:41] "GET /static/admin/css/changelists.css HTTP/1.0" 200 6170
+[26/Dec/2017 03:49:41] "GET /static/admin/js/core.js HTTP/1.0" 200 7976
+[26/Dec/2017 03:49:41] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[26/Dec/2017 03:49:41] "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 363
+[26/Dec/2017 03:49:41] "GET /static/admin/js/actions.js HTTP/1.0" 200 6501
+[26/Dec/2017 03:49:41] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 6591
+[26/Dec/2017 03:49:41] "GET /static/admin/js/urlify.js HTTP/1.0" 200 8186
+[26/Dec/2017 03:49:41] "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 1538
+[26/Dec/2017 03:49:41] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 128820
+[26/Dec/2017 03:49:42] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 258648
+[26/Dec/2017 03:49:43] "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 200 331
+[26/Dec/2017 03:49:45] "GET /admin/ChristmasModel/workmodel/2/change/ HTTP/1.0" 200 11835
+[26/Dec/2017 03:49:45] "GET /static/admin/css/forms.css HTTP/1.0" 200 8173
+[26/Dec/2017 03:49:45] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[26/Dec/2017 03:49:45] "GET /static/admin/js/change_form.js HTTP/1.0" 200 712
+[26/Dec/2017 03:49:45] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 200 495
+[26/Dec/2017 03:49:45] "GET /static/admin/css/widgets.css HTTP/1.0" 200 10340
+[26/Dec/2017 03:50:09] "POST /admin/ChristmasModel/workmodel/2/change/ HTTP/1.0" 302 0
+[26/Dec/2017 03:50:09] "GET /admin/ChristmasModel/workmodel/ HTTP/1.0" 200 4710
+[26/Dec/2017 03:50:09] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[26/Dec/2017 03:50:09] "GET /static/admin/img/icon-yes.svg HTTP/1.0" 200 436
+[26/Dec/2017 03:50:11] "GET /admin/ChristmasModel/workmodel/1/change/ HTTP/1.0" 200 11839
+[26/Dec/2017 03:50:11] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[26/Dec/2017 03:50:26] "POST /admin/ChristmasModel/workmodel/1/change/ HTTP/1.0" 302 0
+[26/Dec/2017 03:50:26] "GET /admin/ChristmasModel/workmodel/ HTTP/1.0" 200 4710
+[26/Dec/2017 03:50:26] "GET /admin/jsi18n/ HTTP/1.0" 200 3217
+[26/Dec/2017 03:50:28] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:50:30] "GET /work HTTP/1.0" 200 4978
+[26/Dec/2017 03:50:34] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:50:34] "GET /work HTTP/1.0" 200 4978
+[26/Dec/2017 03:50:35] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:50:35] "GET /work HTTP/1.0" 200 4978
+[26/Dec/2017 03:50:36] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:50:37] "GET /introduction HTTP/1.0" 200 4305
+[26/Dec/2017 03:52:35] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 03:52:37] "GET /work HTTP/1.0" 200 4978
+[26/Dec/2017 03:52:38] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 03:52:41] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 04:38:25] "GET / HTTP/1.0" 200 4191
+Not Found: /index.action
+[26/Dec/2017 04:38:25] "GET /index.action HTTP/1.0" 404 2395
+[26/Dec/2017 07:15:45] "GET / HTTP/1.0" 200 4191
+Not Found: /index.action
+[26/Dec/2017 07:15:45] "GET /index.action HTTP/1.0" 404 2395
+[26/Dec/2017 07:47:40] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/css/bootstrap.css HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/css/bootstrap-grid.css HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/css/jumbotron.css HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/css/bootstrap-reboot.css HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/js/bootstrap.min.js HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-markdown/js/bootstrap-markdown.js HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/js/popper.min.js HTTP/1.0" 304 0
+[26/Dec/2017 07:47:40] "GET /static/res/bootstrap-4.0.0/js/holder.min.js HTTP/1.0" 304 0
+Not Found: /favicon.ico
+[26/Dec/2017 07:47:40] "GET /favicon.ico HTTP/1.0" 404 2392
+[26/Dec/2017 07:47:42] "GET /work HTTP/1.0" 200 4978
+[26/Dec/2017 07:47:42] "GET /static/res/bootstrap-4.0.0/css/album.css HTTP/1.0" 304 0
+[26/Dec/2017 07:47:49] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 07:47:49] "GET /static/res/bootstrap-4.0.0/css/grid.css HTTP/1.0" 304 0
+[26/Dec/2017 07:47:52] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 07:47:55] "GET /introduction HTTP/1.0" 200 4305
+[26/Dec/2017 07:47:59] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 07:47:59] "GET /work HTTP/1.0" 200 4978
+[26/Dec/2017 07:47:59] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 10:34:06] "GET / HTTP/1.0" 200 4191
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/css/bootstrap-reboot.css HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/css/bootstrap-grid.css HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/css/bootstrap.css HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/css/jumbotron.css HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/js/bootstrap.min.js HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-markdown/js/bootstrap-markdown.js HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/js/popper.min.js HTTP/1.0" 304 0
+[26/Dec/2017 10:34:07] "GET /static/res/bootstrap-4.0.0/js/holder.min.js HTTP/1.0" 304 0
+[26/Dec/2017 10:34:09] "GET /work HTTP/1.0" 200 4978
+[26/Dec/2017 10:34:10] "GET /static/res/bootstrap-4.0.0/css/album.css HTTP/1.0" 304 0
+[26/Dec/2017 10:34:12] "GET /ref HTTP/1.0" 200 5736
+[26/Dec/2017 10:34:12] "GET /static/res/bootstrap-4.0.0/css/grid.css HTTP/1.0" 304 0
+[26/Dec/2017 15:11:56] "GET / HTTP/1.0" 200 4191
+Not Found: /index.action
+[26/Dec/2017 15:11:56] "GET /index.action HTTP/1.0" 404 2395
+[26/Dec/2017 18:07:52] "GET / HTTP/1.0" 200 4191
+Not Found: /index.action
+[26/Dec/2017 18:07:52] "GET /index.action HTTP/1.0" 404 2395
+[26/Dec/2017 21:16:07] "GET / HTTP/1.0" 200 4191
+Not Found: /index.action
+[26/Dec/2017 21:16:07] "GET /index.action HTTP/1.0" 404 2395
+[27/Dec/2017 01:33:28] "GET / HTTP/1.0" 200 4191
+[27/Dec/2017 02:16:36] "GET / HTTP/1.0" 200 4191
+[27/Dec/2017 02:16:36] "GET /static/res/bootstrap-4.0.0/css/bootstrap-reboot.css HTTP/1.0" 200 4964
+[27/Dec/2017 02:16:36] "GET /static/res/bootstrap-4.0.0/css/jumbotron.css HTTP/1.0" 200 107
+[27/Dec/2017 02:16:36] "GET /static/res/bootstrap-4.0.0/css/bootstrap-grid.css HTTP/1.0" 200 32403
+[27/Dec/2017 02:16:36] "GET /static/res/bootstrap-4.0.0/js/bootstrap.min.js HTTP/1.0" 200 50564
+[27/Dec/2017 02:16:36] "GET /static/res/bootstrap-4.0.0/css/bootstrap.css HTTP/1.0" 200 159202
+[27/Dec/2017 02:16:37] "GET /static/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js HTTP/1.0" 200 86659
+[27/Dec/2017 02:16:37] "GET /static/res/bootstrap-markdown/js/bootstrap-markdown.js HTTP/1.0" 200 49558
+[27/Dec/2017 02:16:37] "GET /static/res/bootstrap-4.0.0/js/popper.min.js HTTP/1.0" 200 19197
+[27/Dec/2017 02:16:39] "GET /static/res/bootstrap-4.0.0/js/holder.min.js HTTP/1.0" 200 32283
+Not Found: /favicon.ico
+[27/Dec/2017 02:17:03] "GET /favicon.ico HTTP/1.0" 404 2392
+[27/Dec/2017 02:17:17] "GET /work HTTP/1.0" 200 4978
+[27/Dec/2017 02:17:18] "GET /static/res/bootstrap-4.0.0/css/album.css HTTP/1.0" 200 790
+[27/Dec/2017 02:17:21] "GET / HTTP/1.0" 200 4191
+[27/Dec/2017 02:17:23] "GET /work HTTP/1.0" 200 4978
+[27/Dec/2017 02:17:24] "GET /ref HTTP/1.0" 200 5736
+[27/Dec/2017 02:17:24] "GET /static/res/bootstrap-4.0.0/css/grid.css HTTP/1.0" 200 366
+[27/Dec/2017 02:17:27] "GET /introduction HTTP/1.0" 200 4305
+[27/Dec/2017 02:17:30] "GET /ref HTTP/1.0" 200 5736
+[27/Dec/2017 02:17:30] "GET /work HTTP/1.0" 200 4978
+[27/Dec/2017 02:17:31] "GET / HTTP/1.0" 200 4191
+[27/Dec/2017 02:17:32] "GET / HTTP/1.0" 200 4191
+[27/Dec/2017 02:17:33] "GET /ref HTTP/1.0" 200 5736
+[27/Dec/2017 02:17:36] "GET /work HTTP/1.0" 200 4978
+[27/Dec/2017 02:17:37] "GET / HTTP/1.0" 200 4191
+[27/Dec/2017 02:17:38] "GET /work HTTP/1.0" 200 4978
+[27/Dec/2017 02:48:41] "GET / HTTP/1.0" 200 4191
+Not Found: /favicon.ico
+[27/Dec/2017 02:48:44] "GET /favicon.ico HTTP/1.0" 404 2392
+[27/Dec/2017 02:48:46] "GET /work HTTP/1.0" 200 4978
+[27/Dec/2017 02:48:46] "GET /ref HTTP/1.0" 200 5736
+[27/Dec/2017 02:48:48] "GET / HTTP/1.0" 200 4191
+[27/Dec/2017 04:25:23] "GET / HTTP/1.0" 200 4191
+Not Found: /index.action
+[27/Dec/2017 04:25:23] "GET /index.action HTTP/1.0" 404 2395
+[27/Dec/2017 05:43:00] "GET / HTTP/1.0" 200 4191

@@ -1,0 +1,3 @@
+#Every 5Minutes Get News
+*/30 * * * * cd /home/ycy/workspace/python_cloud && sh run_news.sh
+
