@@ -1,0 +1,3 @@
+yum install MySQL-python
+
+

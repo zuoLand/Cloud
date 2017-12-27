@@ -72,15 +72,15 @@
 #yum install mailx
 
 #set ssl-verify=ignore
-#set from=zuoland@aliyun.com
+#set from=xxx@xxx.com
 #set smtp="smtps://smtp.aliyun.com:465"
-#set smtp-auth-user="zuoland@aliyun.com"
-#set smtp-auth-password=zuoLand8
+#set smtp-auth-user="xxx@xxx.com"
+#set smtp-auth-password=xxx
 #set smtp-auth=login
 #set nss-config-dir=/etc/pki/nssdb/
 
 #mailx -eiIUdEFntBDNHRVv~ -T FILE -u USER -h hops -r address -s SUBJECT -a FILE -q FILE -f FILE -A ACCOUNT -b USERS -c USERS -S OPTION users
-#cat /home/ycy/workspace/python_cloud/data/Tencent.201712271005 |mailx -v -s "News" chunyuan2008@163.com
+#cat /home/ycy/workspace/python_cloud/data/Tencent.201712271005 |mailx -v -s "News" xxx@xxx.com
 
 
 

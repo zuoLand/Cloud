@@ -36,8 +36,8 @@
 
 #阿里云服务器ECS添加用户
 #参考CentOS 7中添加一个新用户并授权 http://www.linuxidc.com/Linux/2016-11/137549.htm
-#adduser hgc
-#passwd hgc
+#adduser xxx
+#passwd xxx
 #sudoers
 #whereis sudoers
 #ls -l /etc/sudoers
@@ -63,8 +63,8 @@
 
 #添加文件
 #git add filename
-#git git config --global user.email "chunyuan2008@163.com"
-#git config --global user.name "zuoLand"
+#git git config --global user.email "xxx@xxx.com"
+#git config --global user.name "xxxx"
 
 #git commit -m "Description:"
 #git push
