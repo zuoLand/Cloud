@@ -46,7 +46,8 @@ echo "</body>" >> $doubanBaseDir/DouBan_$curDate.html
 echo "</html>" >> $doubanBaseDir/DouBan_$curDate.html
 
 #-------------------------------------------------------------------------
-echo "腾讯新闻$curDate" | mailx -v -s "TencentNews_$curDate" -a $newsBaseDir/Tencent_News_$curDate.html -a $newsBaseDir/WeiBo_News_$curDate.html -a $doubanBaseDir/DouBan_$curDate.html -a ./picture/1.jpg chunyuan2008@163.com
+imgIndex=$(date +"%d" | awk '{if(substr($0,0,1)==0){print substr($0,2,1)}else{print $0}}')
+echo "腾讯新闻$curDate" | mailx -v -s "TencentNews_$curDate" -a $newsBaseDir/Tencent_News_$curDate.html -a $newsBaseDir/WeiBo_News_$curDate.html -a $doubanBaseDir/DouBan_$curDate.html -a ./picture/$imgIndex.jpg chunyuan2008@163.com
 
 
 
