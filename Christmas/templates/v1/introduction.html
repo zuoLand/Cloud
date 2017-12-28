@@ -1,0 +1,133 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>{{SITE_NAME}}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap-grid.css' %}">
+
+    <!-- Custom styles for this template -->
+   <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/jumbotron.css' %}">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/">首页 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/work">作品</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/ref">知识分享</a>
+          </li>
+        </ul>
+
+       
+        <form class="form-inline my-2 my-lg-0 active">
+           <a class="btn btn-outline-success my-2 my-sm-0" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/introduction">介绍</a>
+         </form>
+
+          
+      </div>
+    </nav>
+
+   <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">介绍</h1>
+          <p>&nbsp;</p>
+          <p> 
+            北冥有鱼，其名为鲲。鲲之大，不知其几千里也。<br/>
+            化而为鸟，其名 为鹏。鹏之背，不知其几千里也。<br/>
+            怒而飞，其翼若垂天之云。
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>环境艺术制作</h2>
+            <p>
+            
+             参考梳理<br/>
+             高模大型<br/>
+             高模制作<br/>
+             低模拓扑<br/>
+             低模UV<br/>
+             贴图<br/>
+             效果展示<br/>
+            </p>
+            <!--
+            <p><a class="btn btn-secondary" href="" role="button">查看详情 &raquo;</a></p>
+             -->
+          </div>
+          <div class="col-md-4">
+             <h2>程序优化</h2>
+             <p>
+              UE4配置<br/>
+              UE4蓝图<br/>
+              UE4材质<br/>
+            </p>
+            <!--
+            <p><a class="btn btn-secondary" href="" role="button">查看详情 &raquo;</a></p>
+             -->
+          </div>
+          <div class="col-md-4">
+            <h2>知识分享</h2>
+              <p>
+              计算机图形学原理<br/>
+              Python编程<br/>
+              阿里云环境搭建<br/>
+              环境艺术分享<br/>
+              角色艺术分享<br/>
+            </p>
+            <!--
+            <p><a class="btn btn-secondary" href="" role="button">查看详情 &raquo;</a></p>
+             -->
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>
+     Email:<a href="mailto:{{SITE_FOOTER_EMAIL}}">{{SITE_FOOTER_EMAIL}}</a> <br/>
+     &copy;{{SITE_FOOTER_COMPANY}}
+     </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static '/res/bootstrap-4.0.0/js/bootstrap.min.js' %}"></script>
+    <script src="{% static '/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static '/res/bootstrap-markdown/js/bootstrap-markdown.js' %}"></script>
+    <script src="{% static '/res/bootstrap-4.0.0/js/popper.min.js' %}"></script>
+    <script src="{% static '/res/bootstrap-4.0.0/js/holder.min.js' %}"></script>
+
+</body>
+</html>

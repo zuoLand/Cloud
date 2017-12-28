@@ -32,6 +32,7 @@ urlpatterns = [
     url(r'^work$', view.toWork),
 
     url(r'^ref$', view.toRef),
+    url(r'^news$', view.toNews),
 ]
 
 

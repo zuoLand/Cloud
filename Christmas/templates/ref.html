@@ -1,51 +1,6 @@
-{% load staticfiles %}
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+{% extends "base.html" %}
 
-    <title>{{SITE_NAME}}</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap-reboot.css' %}">
-    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap-grid.css' %}">
-
-    <!-- Custom styles for this template -->
-     <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/grid.css' %}">
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/">首页 <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/work">作品</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/ref">知识分享</a>
-          </li>
-        </ul>
-
-       
-        <form class="form-inline my-2 my-lg-0">
-           <a class="btn btn-outline-success my-2 my-sm-0" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/introduction">介绍</a>
-         </form>
-
-          
-      </div>
-    </nav>
-
+{% block context %}
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -63,24 +18,4 @@
 
 
        </div>
-
-    </main>
-
-    <footer class="container">
-      <p>
-     Email:<a href="mailto:{{SITE_FOOTER_EMAIL}}">{{SITE_FOOTER_EMAIL}}</a> <br/>
-     &copy;{{SITE_FOOTER_COMPANY}}
-     </p>
-    </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{% static '/res/bootstrap-4.0.0/js/bootstrap.min.js' %}"></script>
-    <script src="{% static '/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js' %}"></script>
-    <script src="{% static '/res/bootstrap-markdown/js/bootstrap-markdown.js' %}"></script>
-    <script src="{% static '/res/bootstrap-4.0.0/js/popper.min.js' %}"></script>
-    <script src="{% static '/res/bootstrap-4.0.0/js/holder.min.js' %}"></script>
-</body>
-</html>
+{% endblock context %}

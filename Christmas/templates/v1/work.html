@@ -1,0 +1,125 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>{{SITE_NAME}}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/album.css' %}">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{% static '/res/bootstrap-4.0.0/css/jumbotron.css' %}">
+  </head>
+
+  <body>
+
+
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/">首页 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/work">作品</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/ref">知识分享</a>
+          </li>
+        </ul>
+
+       
+        <form class="form-inline my-2 my-lg-0">
+           <a class="btn btn-outline-success my-2 my-sm-0" href="{{SITE_ADDRESS_PRE}}://{{SITE_ADDRESS}}/introduction">介绍</a>
+         </form>
+
+          
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">作品展示</h1>
+          <p class="lead text-muted">
+          山花落幽户,中有忘机客.<br/>
+          小人槿花心,朝在夕不存.</p>
+          <!--
+          <p>
+            <a href="#" class="btn btn-primary">Main call to action</a>
+            <a href="#" class="btn btn-secondary">Secondary action</a>
+          </p>
+        -->
+        </div>
+      </section>
+      <hr/>
+
+       <div class="album text-muted">
+        <div class="container">
+
+         <!-- -->
+         <div class="row">
+           {% for workModel in WorkModelList %} 
+            <div class="card">
+              <a href="javascript:;" >
+                <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap" src="{{workModel.href}}" height="200" class="rounded mx-auto d-block" >
+              </a>
+              <p class="card-text">
+              名称 ：{{ workModel.name }}<br/>
+              FPS ：{{ workModel.fps }}<br/>
+              引擎 : {{ workModel.engine}} <br/>
+              平台 : {{ workModel.platform }}<br/>
+              文档 : {{ workModel.isdoc}}<br/>
+              LOD ：{{ workModel.islod}}<br/>
+              PBR : {{ workModel.ispbr}} <br/>
+              碰撞 : {{ workModel.iscollision}} <br/>
+              顶点数量 : {{ workModel.vertexcount }}<br/>
+              模型数量 : {{ workModel.meshcount}}<br/>
+              贴图数量 ：{{ workModel.texturecount}}<br/>
+              贴图精度 ：{{ workModel.texturesize }}<br/>
+              材质数量 : {{ workModel.materialscount }}<br/>
+              动画数量 ：{{ workModel.animcount }}<br/>
+              特效数量 : {{ workModel.effectcount }}<br/>
+              </p>
+            </div>  
+            {% endfor %}
+
+        </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <footer class="container">
+      <p>
+     Email:<a href="mailto:{{SITE_FOOTER_EMAIL}}">{{SITE_FOOTER_EMAIL}}</a> <br/>
+     &copy;{{SITE_FOOTER_COMPANY}}
+     </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static '/res/bootstrap-4.0.0/js/bootstrap.min.js' %}"></script>
+    <script src="{% static '/res/bootstrap-4.0.0/js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static '/res/bootstrap-markdown/js/bootstrap-markdown.js' %}"></script>
+    <script src="{% static '/res/bootstrap-4.0.0/js/popper.min.js' %}"></script>
+    <script src="{% static '/res/bootstrap-4.0.0/js/holder.min.js' %}"></script>
+
+
+</body>
+</html>

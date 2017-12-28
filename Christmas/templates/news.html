@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block context %}
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+       <div class="container">
+           <h1>&nbsp;</h1>
+           <p class="lead"></p>
+           <table class="table">
+               <thead>
+                   <th>微博热搜榜单</th>
+               </thead>
+               <tbody id="newsContent">
+               {% for n in newsList %}
+                   <tr>
+                       <td>
+                       <a href="{{n.href}}">{{n.title}}</a> 
+                        </td>
+                   </tr>
+               {% endfor %}      
+               </tbody>
+           </table>
+       </div>
+{% endblock context %}
